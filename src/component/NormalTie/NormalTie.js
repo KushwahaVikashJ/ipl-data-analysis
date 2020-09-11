@@ -11,7 +11,6 @@ import {
 
 
 import matchesData from '../../Assets/Dataset/matches.json';
-// import './NormalTie.css';
 
 function yearWiseResultCount(matches){
     const resultCount = {}
@@ -54,8 +53,6 @@ const NormalTie = (props)=>{
                 type="number"
                 axisLine={false}
                 stroke="#a0a0a0"
-                // domain={[0, 10]}
-                // ticks={[0, 2.5, 5, 7.5, 10]}
                 strokeWidth={0.5}
               />
               <YAxis type="category" dataKey={"name"} width={60} minTickGap={0} />

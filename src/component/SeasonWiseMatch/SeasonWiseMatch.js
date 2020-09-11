@@ -2,7 +2,6 @@ import React from 'react';
 import {AreaChart, Area, XAxis, YAxis, CartesianGrid, ResponsiveContainer, Tooltip} from 'recharts';
 
 import matchesData from '../../Assets/Dataset/matches.json';
-// import './SeasonWiseMatches.css';
 
 function yearWiseMatchCount(matches){
   const matchesCount = {}

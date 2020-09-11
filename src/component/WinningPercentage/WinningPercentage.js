@@ -1,7 +1,6 @@
 import React from 'react';
-import { PieChart, Pie, ResponsiveContainer, Cell,Tooltip} from "recharts";
+import { PieChart, Pie, ResponsiveContainer, Legend, Cell,Tooltip} from "recharts";
 import matchesData from '../../Assets/Dataset/matches.json';
-// import './WinningPercentage.css';
 
 function yearWiseWinnerCount(matches){
   const winnerCount = {}
@@ -57,8 +56,14 @@ const WinningPercentage = (props)=>{
             <h3>Winning Percentage of Teams</h3>
             <ResponsiveContainer height={data.length * 50} width="100%">
             <PieChart width={320} height={handleHeight()}>
+            <Legend
+                wrapperStyle={{ width: "60%" }}
+                iconType="circle"
+                align={"right"}
+                verticalAlign={"top"}
+                paylodUniqBy
+            />
             <Tooltip />
-            
             <Pie
               data={data}
               dataKey="win"

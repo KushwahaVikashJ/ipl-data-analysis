@@ -2,8 +2,6 @@ import React from 'react';
 import { ResponsiveContainer, Tooltip, PieChart, Pie } from "recharts";
 import matchesData from '../../Assets/Dataset/matches.json';
 
-// import './TabularDetail.css';
-
 function topTenManOfMatchWinners(matches){
   const playersList = {}
   matches.forEach(match => {
@@ -45,7 +43,7 @@ const PlayerOfMatch = (props)=>{
                   data={data}
                   cx="50%"
                   cy="50%"
-                  outerRadius={100}
+                  outerRadius={65}
                   fill="#8884d8"
                   dataKey="won"
                   label={({

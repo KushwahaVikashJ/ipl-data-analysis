@@ -1,7 +1,6 @@
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, ResponsiveContainer, Tooltip} from "recharts";
 import matchesData from '../../Assets/Dataset/matches.json';
-// import './WonByTossDecision.css';
 
 function TossWinners(matches){
     const TossWinnersCount = {}
