@@ -45,28 +45,12 @@ div h3{
 }
 
 
-/* @media(max-width:500px){
-    .layout{
-        width:100%;
-        background-color: white;
-        color:black;
-    }
-    
-    .analysis{
+@media(max-width:499px){
+    .charted{
         width: 90%;
-        text-align: center;
-    }
-    
-    .header{
-        display: flex;
-        flex-flow: row;
-    }
-    
-    .header-item{
+        height: 550px;
         padding: 10px;
-        margin: 20px;
-        width: 180px;
-        text-align:center;
-        border: 1px solid black;    
+        margin: 10px;
+        border: 1px solid black;
     }    
-} */
+}
