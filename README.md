@@ -1,4 +1,4 @@
-### My-BURGER 
+### IPL-Data-Analysis
  - The application built with React Js.
  - The application uses npm package called Recharts to show the data analysis in proper format with the help of different charts.
  - The application uses all the new features introduced in EcmaScript 6.
